@@ -1,0 +1,39 @@
+.contact-container {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.contact-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contact-social-links a {
+  font-size: 2.8rem;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.contact-social-links a:hover {
+  color: #007acc;
+  transform: scale(1.1) translateY(-5px);
+}
