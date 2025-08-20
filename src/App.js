@@ -1,13 +1,32 @@
 
 import './App.css';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Navbar from "./components/Navbar/Navbar"
+import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
 
 function App() {
-  return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>Portfólio em construção 🚧</h1>
-      <p>Volte em breve para ver meu trabalho!</p>
-    </div>
-  );
+    return (
+        <div className='app-page'>
+            {/* Menu de Navegação */}
+            <Navbar />
+
+            {/* Conteúdo Principal*/}
+            <main className='main-content'>
+                <Header />
+                <About />
+                <Skills />
+                <Projects />
+                <Contact />
+            </main>
+
+            {/* Rodapé */}
+            <Footer />
+        </div>
+    )
 }
 
 export default App;
