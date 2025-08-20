@@ -23,8 +23,8 @@
 
 .header-subtitle {
   font-size: 1.5rem;
-  font-weight: 400; /* Peso normal */
-  color: #61dafb; /* Cor de destaque (azul React) */
+  font-weight: 400; 
+  color: #61dafb; 
   margin: 1rem 0;
 }
 
